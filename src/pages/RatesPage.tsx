@@ -40,7 +40,6 @@ const RatesPage: React.FC = () => {
         rates={rates}
         favorites={favorites}
         toggleFavorite={toggleFavorite}
-        onUpdateRates={loadRates}
       />
     </div>
   );
